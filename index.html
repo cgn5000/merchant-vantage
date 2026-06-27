@@ -2,110 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shopify Solution Partner Directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MerchantVantage | Scale Your Commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        :root { --bg: #050505; --text: #f0f0f0; --accent: #8b5cf6; --card: #111; }
-        body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui; margin: 0; padding: 40px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: var(--card); padding: 20px; border-radius: 12px; border: 1px solid #222; }
-        .btn { display: inline-block; margin-top: 15px; color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+        body { background-color: #0a0a0a; color: #ededed; font-family: 'Inter', sans-serif; }
+        .card { background: #111; border: 1px solid #1f1f1f; transition: all 0.2s; }
+        .card:hover { border-color: #333; }
     </style>
 </head>
 <body>
-    <h1>MerchantVantage: Partner Directory</h1>
-    <div class="grid">
-
-        <div class="card">
-            <h3>Avex Designs</h3>
-            <a href="/agency-pages/avex-designs.html" class="btn">View Agency →</a>
+    <nav class="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="text-xl font-bold tracking-tighter">MerchantVantage</div>
+        <div class="flex gap-6 text-sm text-neutral-400">
+            <a href="/" class="hover:text-white">Home</a>
         </div>
-        <div class="card">
-            <h3>Barrel</h3>
-            <a href="/agency-pages/barrel.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Bluepixel</h3>
-            <a href="/agency-pages/bluepixel.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Charle Agency</h3>
-            <a href="/agency-pages/charle-agency.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Contra</h3>
-            <a href="/agency-pages/contra.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Directive</h3>
-            <a href="/agency-pages/directive.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Elevation Marketing</h3>
-            <a href="/agency-pages/elevation-marketing.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Fox Agency</h3>
-            <a href="/agency-pages/fox-agency.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Ironpaper</h3>
-            <a href="/agency-pages/ironpaper.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Ledger Bennett</h3>
-            <a href="/agency-pages/ledger-bennett.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Naturaily</h3>
-            <a href="/agency-pages/naturaily.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Obility</h3>
-            <a href="/agency-pages/obility.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Reachgiant</h3>
-            <a href="/agency-pages/reachgiant.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Scandiweb</h3>
-            <a href="/agency-pages/scandiweb.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Smartbug Media</h3>
-            <a href="/agency-pages/smartbug-media.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Sticky Digital</h3>
-            <a href="/agency-pages/sticky-digital.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Stimulate</h3>
-            <a href="/agency-pages/stimulate.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Swanky Agency</h3>
-            <a href="/agency-pages/swanky-agency.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Tide Flow</h3>
-            <a href="/agency-pages/tide-flow.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Transmission</h3>
-            <a href="/agency-pages/transmission.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Vccp Business</h3>
-            <a href="/agency-pages/vccp-business.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Walker Sands</h3>
-            <a href="/agency-pages/walker-sands.html" class="btn">View Agency →</a>
-        </div>
-        <div class="card">
-            <h3>Wecanfly</h3>
-            <a href="/agency-pages/wecanfly.html" class="btn">View Agency →</a>
-        </div>    </div>
+    </nav>
+    <main class="max-w-5xl mx-auto px-6 mt-20">
+        <section class="text-center">
+            <h1 class="text-6xl font-semibold tracking-tighter mb-6">Scale your commerce,<br>optimized for growth.</h1>
+            <p class="text-neutral-400 text-lg mb-10 max-w-lg mx-auto">Vetted expert agencies integrated with next-gen Shopify native solutions.</p>
+        </section>
+        <section class="grid md:grid-cols-3 gap-6 mt-32">
+            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Avex Designs</h3>
+                <a href="/agency-pages/avex-designs.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Barrel</h3>
+                <a href="/agency-pages/barrel.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Bluepixel</h3>
+                <a href="/agency-pages/bluepixel.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Charle Agency</h3>
+                <a href="/agency-pages/charle-agency.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Contra</h3>
+                <a href="/agency-pages/contra.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Directive</h3>
+                <a href="/agency-pages/directive.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Elevation Marketing</h3>
+                <a href="/agency-pages/elevation-marketing.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Fox Agency</h3>
+                <a href="/agency-pages/fox-agency.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Ironpaper</h3>
+                <a href="/agency-pages/ironpaper.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Ledger Bennett</h3>
+                <a href="/agency-pages/ledger-bennett.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Naturaily</h3>
+                <a href="/agency-pages/naturaily.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Obility</h3>
+                <a href="/agency-pages/obility.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Reachgiant</h3>
+                <a href="/agency-pages/reachgiant.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Scandiweb</h3>
+                <a href="/agency-pages/scandiweb.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Smartbug Media</h3>
+                <a href="/agency-pages/smartbug-media.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Sticky Digital</h3>
+                <a href="/agency-pages/sticky-digital.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Stimulate</h3>
+                <a href="/agency-pages/stimulate.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Swanky Agency</h3>
+                <a href="/agency-pages/swanky-agency.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Tide Flow</h3>
+                <a href="/agency-pages/tide-flow.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Transmission</h3>
+                <a href="/agency-pages/transmission.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Vccp Business</h3>
+                <a href="/agency-pages/vccp-business.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Walker Sands</h3>
+                <a href="/agency-pages/walker-sands.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>            <div class="card p-6 rounded-xl">
+                <h3 class="font-medium mb-2">Wecanfly</h3>
+                <a href="/agency-pages/wecanfly.html" class="text-indigo-400 text-sm font-medium">View Agency →</a>
+            </div>        </section>
+    </main>
 </body>
 </html>
